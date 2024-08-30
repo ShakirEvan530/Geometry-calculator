@@ -128,16 +128,16 @@
                         <h2 class="card-title">Pentagon</h2>
                         <p>Area(A) = 0.5 X p X b</p>
                         <div class="flex">
-                          <input type="text" class="w-24 text-2xl p-2 rounded-sm" placeholder="p">
+                          <input id="Pentagon-p" type="text" class="w-24 text-2xl p-2 rounded-sm" placeholder="p">
                         <span class="ml-4 mr-1 text-xl">cm</span>
-                        <input type="text" class="w-24 text-2xl p-2 rounded-sm" placeholder="b">
+                        <input id="Pentagon-b" type="text" class="w-24 text-2xl p-2 rounded-sm" placeholder="b">
                         <span class="ml-4 mr-1 text-xl">cm</span>
                         </div>
                         <div>
-                          <p class="text-2xl">Area: <span>0</span> <span>cm <sup>2</sup></span></p>
+                          <p class="text-2xl">Area: <span id="Pentagon-area">0</span> <span>cm <sup>2</sup></span></p>
                         </div>
                         <div class="card-actions justify-end">
-                          <button onclick="" class="btn btn-primary w-full">Calculate</button>
+                          <button onclick="calculatePentagonArea()" class="btn btn-primary w-full">Calculate</button>
                         </div>
                       </div>
                     </div>
